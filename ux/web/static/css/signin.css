@@ -1,0 +1,47 @@
+body {
+    background-image: url("/static/img/signin-background.png");
+}
+
+.signin-box {
+    transform: translate(0, 10vh);
+    margin: 0 auto;
+
+    height: 80vh;
+    width: 30vw;
+    background-image: url("/static/img/signin-box-background.png");
+    background-size: 100% 100%;
+}
+
+#signin-form {
+    transform: translate(0, 30vh);
+    text-align: center;
+
+    height: 50vh;
+}
+
+#userid-input {
+    transform: translate(-0.5vh, 0);
+}
+
+#password-input {
+    transform: translate(-0.5vh, 3.5vh);
+}
+
+.signin-input {
+    height: 8%;
+    width: 67%;
+
+    border: none;
+    background: transparent;
+}
+
+.signin-input::placeholder {
+    text-align: center;
+    opacity: 1;
+}
+
+.signin-button {
+    margin: 5vh auto 7vh auto;
+
+    height: 6vh;
+}
