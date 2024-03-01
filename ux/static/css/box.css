@@ -1,0 +1,8 @@
+.box {
+    margin: 5vh auto;
+
+    width: 90vw;
+
+    background-image: url("/static/img/box-background.png");
+    background-size: 100% 100%;
+}
