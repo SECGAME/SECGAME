@@ -3,33 +3,33 @@ body {
 }
 
 .signin-box {
-    transform: translate(0, 10vh);
+    transform: translate(0, 15vh);
     margin: 0 auto;
 
-    height: 80vh;
+    height: 70vh;
     width: 30vw;
     background-image: url("/static/img/signin-box-background.png");
     background-size: 100% 100%;
 }
 
 #signin-form {
-    transform: translate(0, 30vh);
+    transform: translate(0, 35vh);
     text-align: center;
 
-    height: 50vh;
+    height: 35vh;
 }
 
 #userid-input {
-    transform: translate(-0.5vh, 0);
+    transform: translate(-1.2vh, 0.5vh);
 }
 
 #password-input {
-    transform: translate(-0.5vh, 3.5vh);
+    transform: translate(-1.2vh, 4.3vh);
 }
 
 .signin-input {
-    height: 8%;
-    width: 67%;
+    height: 14%;
+    width: 65%;
 
     border: none;
     background: transparent;
@@ -40,8 +40,15 @@ body {
     opacity: 1;
 }
 
-.signin-button {
-    margin: 5vh auto 7vh auto;
+#signin-button {
+    transform: translate(0, 8.4vh);
+}
 
-    height: 6vh;
+#signup-button {
+    transform: translate(0, 16vh);
+}
+
+.signin-button {
+    height: 16%;
+    width: 50%;
 }
