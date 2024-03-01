@@ -34,11 +34,14 @@ body {
     border: none;
     outline: none;
     background: transparent;
+
+    font-size: 12pt;
+    color: black;
 }
 
 .signin-input::placeholder {
-    text-align: center;
     opacity: 1;
+    color: #5F5F5F;
 }
 
 #signin-button {
@@ -56,5 +59,6 @@ body {
     border-color: #796DFF;
     border-radius: 1vh;
     background-color: #6A60DF;
+
     color: white;
 }
