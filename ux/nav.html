@@ -3,8 +3,13 @@
 </style>
 
 <nav id="navbar">
-    <a class="nav-item" href="/">MAIN</a>
-    <a class="nav-item" href="/">SCOREBOARD</a>
-    <a class="nav-item" href="/">WARGAME</a>
-    <a class="nav-item">SIGN OUT</a>
+    <div id="nav-items">
+        <a class="nav-item" href="/main.html">HOME</a>
+        <a class="nav-item" href="/">SCOREBOARD</a>
+        <a class="nav-item" href="/">WARGAME</a>
+        <span id="user-info">
+            <p id="username" class="nav-item">USERNAME</p>
+            <a id="signout" class="nav-item" onclick="JS()">SIGN OUT</a>
+        </span>
+    </div>
 </nav>
