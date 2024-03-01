@@ -32,6 +32,7 @@ body {
     width: 65%;
 
     border: none;
+    outline: none;
     background: transparent;
 }
 
@@ -41,14 +42,18 @@ body {
 }
 
 #signin-button {
-    transform: translate(0, 8.4vh);
+    transform: translate(-2.7vh, 8.4vh);
 }
 
 #signup-button {
-    transform: translate(0, 16vh);
+    transform: translate(0, 8.4vh);
 }
 
 .signin-button {
     height: 16%;
-    width: 50%;
+    width: 30%;
+
+    border: none;
+    border-radius: 1vh;
+    background-color: #6A60DF;
 }
