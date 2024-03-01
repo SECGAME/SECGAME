@@ -1,0 +1,14 @@
+#navbar {
+    transform: translate(8vh, 1vh);
+
+    height: 10vh;
+    width: 90vw;
+
+    background-image: url("/static/img/nav.png");
+    background-size: 100% 100%;
+}
+
+.nav-item {
+    color: white;
+    font-size: 3vh;
+}

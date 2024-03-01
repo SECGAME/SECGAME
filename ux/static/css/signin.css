@@ -8,6 +8,7 @@ body {
 
     height: 70vh;
     width: 30vw;
+
     background-image: url("/static/img/signin-box-background.png");
     background-size: 100% 100%;
 }
@@ -35,7 +36,7 @@ body {
     outline: none;
     background: transparent;
 
-    font-size: 12pt;
+    font-size: 1.5vh;
     color: black;
 }
 
