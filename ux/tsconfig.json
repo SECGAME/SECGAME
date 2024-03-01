@@ -7,7 +7,7 @@
     "strict": true,
     "skipLibCheck": true,
     "rootDir": "src",
-    "outDir": "static/js",
+    "outDir": "web/static/js",
     "sourceMap": true
   }
 }
