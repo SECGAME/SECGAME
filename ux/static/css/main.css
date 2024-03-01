@@ -3,6 +3,41 @@ body {
     font-family: Arial;
 }
 
-#main {
+#main-box {
     height: 70vh
+}
+
+#main {
+    display: inline-block;
+
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right: 4.5vw;
+    margin-left: 4.5vw;
+}
+
+#welcome {
+    color: white;
+    font-size: 4vh;
+}
+
+#items {
+    display: flex;
+
+    justify-content: space-between;
+
+    height: 60vh;
+    width: 80vw;
+}
+
+.inside-box {
+    display: inline-block;
+
+    margin-top: 5vh;
+
+    height: 20vw;
+    width: 20vw;
+
+    background-color: white;
+    border-radius: 1vh;
 }
