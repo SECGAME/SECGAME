@@ -21,11 +21,11 @@ body {
 }
 
 #userid-input {
-    transform: translate(1vh, 0.5vh);
+    transform: translate(1vw, 0.5vh);
 }
 
 #password-input {
-    transform: translate(1vh, 4.3vh);
+    transform: translate(1vw, 4.3vh);
 }
 
 .signin-input {
@@ -36,7 +36,7 @@ body {
     outline: none;
     background: transparent;
 
-    font-size: 1.5vh;
+    font-size: 1vw;
     color: black;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 #signin-button {
-    transform: translate(-2.7vh, 8.4vh);
+    transform: translate(-1.5vw, 8.4vh);
 }
 
 #signup-button {
@@ -61,5 +61,6 @@ body {
     border-radius: 1vh;
     background-color: #6A60DF;
 
+    font-size: 1vw;
     color: white;
 }
