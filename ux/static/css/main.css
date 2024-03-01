@@ -40,4 +40,49 @@ body {
 
     background-color: white;
     border-radius: 1vh;
+
+    text-align: center
+}
+
+.score {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+
+    color: #BF1818;
+    font-size: 5vw;
+}
+
+.label {
+    color: #BF1818;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.progress {
+    appearance: none;
+    height: 6vh;
+    width: 8vw;
+
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 1vh;
+    background: white;
+}
+
+.progress::-webkit-progress-bar {
+    height: 6vh;
+    width: 8vw;
+
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 1vh;
+    background: white;
+}
+
+.progress::-webkit-progress-value {
+    background: #BF1818;
+}
+
+.progress::-moz-progress-bar {
+    background: #BF1818;
 }
