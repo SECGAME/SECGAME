@@ -17,7 +17,7 @@ function appendScore(rank, username, score) {
 }
 
 function main() {
-    for(var i = 1; i < 500; i += 1) {
+    for(var i = 1; i <= 500; i += 1) {
         appendScore(i, "movptr", 31337);
     }
 }
