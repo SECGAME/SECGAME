@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SECGAME</title>
+
+        <link href="/static/css/chal.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="msg-box">
+            <div id="inside">
+                <h1 id="chal-title">x64 ROP</h1>
+                <p id="chal-score">200</p>
+                <p id="chal">Easy 64 bit ROP challenge for CTF.</p>
+                <form id="flag">
+                    <p id="vm">nc [address] [port]</p>
+                    <input id="flag-input" type="text" placeholder="SECGAME{...}" />
+                    <button id="flag-submit" type="button">
+                        <img width="15vw" height="15vh" src="/static/img/icon/flag.png" />
+                    </button>
+                </form>
+                <div id="button-list">
+                    <button class="chal-button" onclick="window.location.href = '/wargame.html'">BACK</button>
+                    <button class="chal-button">DOWNLOAD</button>
+                    <button class="chal-button">START VM</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

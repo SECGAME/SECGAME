@@ -1,0 +1,104 @@
+body {
+    background-image: url("/static/img/background.png");
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+.msg-box {
+    transform: translate(0, 15vh);
+    margin: 0 auto;
+
+    height: 60vh;
+    width: 30vw;
+
+    background-image: url("/static/img/chal-box-background.png");
+    background-size: 100% 100%;
+}
+
+#inside {
+    margin-right: 1vw;
+
+    text-align: center;
+}
+
+#chal-title {
+    transform: translate(0, 15vh);
+
+    color: white;
+    font-size: 3vh;
+}
+
+#chal-score {
+    transform: translate(0, 15vh);
+
+    color: white;
+    font-size: 3vh;
+}
+
+#chal {
+    transform: translate(0, 15vh);
+
+    color: white;
+    font-size: 1.5vh;
+}
+
+#vm {
+    text-align: left;
+    margin-left: 4.5vw;
+
+    color: #BBBBBB;
+    font-size: 1.5vh;
+}
+
+#flag {
+    transform: translate(0.5vw, 20vh);
+}
+
+#flag-input {
+    height: 4vh;
+    width: 53%;
+
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    background: transparent;
+
+    color: black;
+    font-size: 1.5vh;
+}
+
+#flag-input::placeholder {
+    opacity: 1;
+    color: #404040;
+    font-size: 1.5vh;
+}
+
+
+#flag-submit {
+    height: 5vh;
+    width: 15%;
+
+    border-color: #796DFF;
+    border-radius: 1vh;
+    background-color: #6A60DF;
+
+    color: white;
+}
+
+#button-list {
+    transform: translate(0.5vw, 25vh);
+}
+
+.chal-button {
+    height: 5vh;
+    width: 21%;
+
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+
+    border-color: #6A60DF;
+    border-radius: 1vh;
+    background-color: transparent;
+    font-size: 1vh;
+    color: white;
+}
