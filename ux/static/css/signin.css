@@ -1,6 +1,6 @@
 body {
     background-image: url("/static/img/background.png");
-    background-size: 100%;
+    background-attachment: fixed;
     font-family: Arial;
 }
 
