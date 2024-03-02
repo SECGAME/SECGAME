@@ -36,6 +36,8 @@ body::-webkit-scrollbar {
     width: 13vw;
     height: 9vh;
 
+    cursor: pointer;
+
     background-color: #404040;
     border: none;
     box-shadow: 0.1vw 0.1vw 0.1vw gray;
