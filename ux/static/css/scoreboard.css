@@ -1,0 +1,63 @@
+body {
+    background-image: url("/static/img/background.png");
+    background-size: 100% 100%;
+    font-family: Arial;
+}
+
+#main-box {
+}
+
+#main {
+    display: inline-block;
+
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right: 4.5vw;
+    margin-left: 4.5vw;
+}
+
+#scoreboard {
+    display: inline-block;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    min-height: 60vh;
+    width: 80vw;
+
+    background-color: white; 
+    border-radius: 1vh;
+
+    text-align: center;
+}
+
+#scoreboard-table {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: auto;
+    width: 70vw;
+
+    border-collapse: collapse;
+    border-spacing: 10vw;
+
+    th {
+        margin-right: auto;
+        margin-left: auto;
+        border-bottom: 0.2vh solid;
+
+        height: 5vh;
+
+        font-size: 1vw;
+        font-weight: border;
+    }
+
+    td {
+        height: 5vh;
+
+        color: rgba(12, 12, 12, 0.83);
+        font-size: 1vw;
+    }
+}

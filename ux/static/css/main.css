@@ -1,5 +1,6 @@
 body {
     background-image: url("/static/img/background.png");
+    background-size: 100%;
     font-family: Arial;
 }
 
@@ -41,19 +42,19 @@ body {
     background-color: white;
     border-radius: 1vh;
 
-    text-align: center
+    text-align: center;
 }
 
 .score {
     margin-top: 5vh;
     margin-bottom: 3vh;
 
-    color: #BF1818;
+    color: #6A60DF;
     font-size: 5vw;
 }
 
 .label {
-    color: #BF1818;
+    color: #6A60DF;
     font-weight: bold;
     font-size: 1.5vw;
 }
@@ -80,9 +81,9 @@ body {
 }
 
 .progress::-webkit-progress-value {
-    background: #BF1818;
+    background: #6A60DF;
 }
 
 .progress::-moz-progress-bar {
-    background: #BF1818;
+    background: #6A60DF;
 }
