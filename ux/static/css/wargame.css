@@ -15,53 +15,35 @@ body::-webkit-scrollbar {
     display: inline-block;
 
     margin-top: 3vh;
-    margin-bottom: 3vh;
-    margin-right: 4.5vw;
-    margin-left: 4.5vw;
-}
-
-#scoreboard {
-    display: inline-block;
-
-    margin-top: 5vh;
     margin-bottom: 5vh;
-
-    min-height: 60vh;
-    width: 80vw;
-
-    background-color: white; 
-    border-radius: 1vh;
-
-    text-align: center;
+    margin-right: 8vw;
+    margin-left: 8vw;
 }
 
-#scoreboard-table {
-    margin-top: 2vh;
-    margin-bottom: 3vh;
-    margin-left: auto;
-    margin-right: auto;
+.category {
+    margin-bottom: 4vh;
+}
 
-    height: auto;
-    width: 70vw;
+.category-name {
+    color: white;
+    font-size: 2vw;
+}
 
-    border-collapse: collapse;
-    border-spacing: 10vw;
+.chal {
+    margin-right: 1vw;
+    margin-bottom: 2vh;
 
-    th {
-        margin-right: auto;
-        margin-left: auto;
-        border-bottom: 0.2vh solid;
+    width: 13vw;
+    height: 9vh;
 
-        height: 5vh;
+    background-color: #404040;
+    border: none;
+    box-shadow: 0.1vw 0.1vw 0.1vw gray;
+    color: white;
 
-        font-size: 1vw;
-        font-weight: border;
-    }
+    font-size: 1.2vh;
+}
 
-    td {
-        height: 5vh;
-
-        color: rgba(12, 12, 12, 0.83);
-        font-size: 1vw;
-    }
+.chal:hover {
+    background-color: #303030;
 }
