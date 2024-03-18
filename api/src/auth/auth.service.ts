@@ -3,6 +3,7 @@ import { UserDTO } from './dto/user.dto'
 import { UserService, hashing } from './user.service';
 import { User } from './entity/user.entity';
 import { JwtService } from '@nestjs/jwt';
+import { Payload } from './security/payload.interface';
 
 @Injectable()
 export class AuthService {
@@ -32,6 +33,7 @@ export class AuthService {
         });
         if(!userfind || userfind.upw !== hashing(hashing(userDTO.upw))) throw new UnauthorizedException();
         const payload = {
+            'id': userfind.id,
             'uid': userfind.uid,
             'email': userfind.email,
             'admin': userfind.admin
@@ -40,5 +42,10 @@ export class AuthService {
         return {
             accessToken: this.jwtService.sign(payload)
         };
+    }
+    async tokenValidateUser(payload: Payload): Promise<User | undefined> {
+        return await this.userService.findByFields({
+            where: { id: payload.id }
+        });
     }
 }

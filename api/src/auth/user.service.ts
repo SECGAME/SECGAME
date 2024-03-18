@@ -13,11 +13,11 @@ export class UserService {
         private userRepository: UserRepository
     ){}
 
-    async findByFields(options: FindOneOptions<UserDTO>): Promise<User | undefined> {
+    async findByFields(options: FindOneOptions<User>): Promise<User | undefined> {
         return await this.userRepository.findOne(options);
     }
 
-    async save(userDTO: UserDTO): Promise<UserDTO | undefined> {
+    async save(userDTO: UserDTO): Promise<User | undefined> {
         return await this.userRepository.save(userDTO);
     }
 }
